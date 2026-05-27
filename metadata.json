@@ -1,0 +1,8 @@
+{
+  "name": "XTASS Seven",
+  "description": "Professional airport and city transportation booking services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-maroon: #800020;
+  --color-brand-maroon-dark: #660032;
+  --color-brand-maroon-hover: #A33B3B;
+  --color-brand-yellow: #FFD700;
+  --color-brand-yellow-hover: #FFC400;
+  --font-sans: 'Figtree', ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: #1f2937;
+  background-color: #fff;
+}
