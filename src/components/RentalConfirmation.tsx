@@ -167,7 +167,7 @@ export default function RentalConfirmation() {
                   {agreedTerms && <CheckCircle2 className="w-4 h-4 text-white" />}
                 </div>
                 <input type="checkbox" className="sr-only" checked={agreedTerms} onChange={(e) => setAgreedTerms(e.target.checked)} />
-                <span className="text-sm text-gray-700 font-bold leading-snug">I agree to the <a href="#" className="text-brand-maroon underline">XTASS Car Rental Terms & Conditions</a>.</span>
+                <span className="text-sm text-gray-700 font-bold leading-snug">I agree to the <Link to="/terms-conditions" className="text-brand-maroon underline">XTASS Car Rental Terms & Conditions</Link>.</span>
              </label>
 
              <label className="flex items-start cursor-pointer group">

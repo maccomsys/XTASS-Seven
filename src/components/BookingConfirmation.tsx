@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { CheckCircle2, User, Phone, Edit, XCircle, MapPin, Calendar, CreditCard, ChevronRight } from 'lucide-react';
+import { CheckCircle2, User, Phone, Edit, XCircle, MapPin, Calendar, CreditCard, ChevronRight , FileText} from 'lucide-react';
 
 export default function BookingConfirmation() {
   const navigate = useNavigate();

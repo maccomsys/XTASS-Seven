@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from 'react';
 import { AlertCircle, FileText, Send, PhoneCall, MessageCircle, CheckCircle, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';

@@ -1,4 +1,6 @@
+import React from "react";
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import DriverLayout from './DriverLayout';
 import { PhoneCall, Mail, MessageCircle, HelpCircle, FileWarning, ExternalLink } from 'lucide-react';
 
@@ -64,10 +66,10 @@ export default function DriverSupport() {
                          
                          {/* FAQ Link */}
                          <div className="pt-4">
-                             <a href="#" className="flex items-center justify-between bg-gray-900 text-white p-4 font-black uppercase tracking-widest hover:bg-gray-800 transition-colors hover:pl-6">
+                             <Link to="/rental-faqs" className="flex items-center justify-between bg-gray-900 text-white p-4 font-black uppercase tracking-widest hover:bg-gray-800 transition-colors hover:pl-6">
                                  <span className="flex items-center"><HelpCircle className="w-5 h-5 mr-3" /> Driver FAQ</span>
                                  <ExternalLink className="w-5 h-5" />
-                             </a>
+                             </Link>
                          </div>
                      </div>
 

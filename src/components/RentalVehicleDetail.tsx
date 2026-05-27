@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import { ChevronLeft, ChevronRight, Users, Briefcase, CarFront, Zap, Wind, Check, Award, ShieldCheck, Route, FileCheck } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Users, Briefcase, CarFront, Zap, Wind, Check, Award, ShieldCheck, Route, FileCheck , Clock} from 'lucide-react';
 
 export default function RentalVehicleDetail() {
   const { id } = useParams<{ id: string }>();

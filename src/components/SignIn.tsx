@@ -1,3 +1,4 @@
+import React from "react";
 import { Eye, EyeOff, Loader2, Camera } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';

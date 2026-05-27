@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import AdminLayout from './AdminLayout';
@@ -10,7 +11,7 @@ export default function AddEditArticle() {
   const handlePublish = (e: React.FormEvent) => {
     e.preventDefault();
     alert(`Article saved as ${status}.`);
-    navigate('/admin/articles');
+    navigate('/admin/content/articles');
   };
 
   return (
@@ -18,7 +19,7 @@ export default function AddEditArticle() {
       <div className="p-8 max-w-6xl mx-auto">
         <div className="flex justify-between items-center mb-8 border-b-4 border-gray-900 pb-4">
             <div>
-              <Link to="/admin/articles" className="inline-flex items-center text-sm font-bold uppercase tracking-widest text-gray-500 hover:text-gray-900 transition-colors mb-2">
+              <Link to="/admin/content/articles" className="inline-flex items-center text-sm font-bold uppercase tracking-widest text-gray-500 hover:text-gray-900 transition-colors mb-2">
                 <ArrowLeft className="w-4 h-4 mr-2" /> Back to Articles
               </Link>
               <h1 className="text-3xl font-black text-gray-900 uppercase tracking-tight flex items-center">

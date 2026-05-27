@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from 'react';
 import { Users, User, Phone, Briefcase, Plus, Edit3, Trash2, Heart, Search } from 'lucide-react';
 import { Link } from 'react-router-dom';

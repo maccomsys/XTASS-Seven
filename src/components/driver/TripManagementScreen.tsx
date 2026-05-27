@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import DriverLayout from './DriverLayout';
-import { Phone, MapPin, Navigation, Map as MapIcon, Users, CreditCard, ChevronRight, CheckCircle2 } from 'lucide-react';
+import { Phone, MapPin, Navigation, Map as MapIcon, Users, CreditCard, ChevronRight, CheckCircle2 , Car} from 'lucide-react';
 
 export default function TripManagementScreen() {
     const navigate = useNavigate();

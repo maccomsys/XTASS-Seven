@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from 'react';
 import { CreditCard, Smartphone, Plus, Trash2, CheckCircle2, ShieldCheck, BadgeDollarSign } from 'lucide-react';
 

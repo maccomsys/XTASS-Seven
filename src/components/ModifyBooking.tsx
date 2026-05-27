@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { MapPin, Calendar, Clock, Users, CarFront, AlertTriangle, Phone, Mail, ChevronRight, X } from 'lucide-react';

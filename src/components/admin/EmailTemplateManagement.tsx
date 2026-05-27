@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from 'react';
 import AdminLayout from './AdminLayout';
 import { Mail, Edit2, Save, Send, Code, X, CheckCircle2 } from 'lucide-react';

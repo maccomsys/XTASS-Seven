@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Car, Clock, Search, AlertCircle, Phone, Wrench, FileText, XCircle, Edit3 } from 'lucide-react';
@@ -232,7 +233,7 @@ export default function ManageReservation() {
               >
                 Try Again
               </button>
-              <Link to="/contact" className="px-8 py-3 border-2 border-gray-300 text-gray-700 font-bold hover:border-gray-400 hover:bg-gray-50 transition-colors">
+              <Link to="/help-support" className="px-8 py-3 border-2 border-gray-300 text-gray-700 font-bold hover:border-gray-400 hover:bg-gray-50 transition-colors">
                 Contact Support
               </Link>
             </div>

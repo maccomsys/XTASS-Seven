@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from 'react';
 import AdminLayout from './AdminLayout';
 import { Settings, Image as ImageIcon, Save } from 'lucide-react';

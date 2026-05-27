@@ -1,3 +1,4 @@
+import React from "react";
 import { useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { User, Mail, Phone, Globe, CarFront, Check, Camera } from 'lucide-react';

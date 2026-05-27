@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from 'react';
 import { Briefcase, ShieldCheck, TrendingUp, Award, Upload, CheckCircle, ArrowRight } from 'lucide-react';
 

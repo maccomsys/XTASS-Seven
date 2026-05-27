@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from 'react';
 import AdminLayout from './AdminLayout';
 import { Sliders, Save, Users, Clock, AlertCircle } from 'lucide-react';

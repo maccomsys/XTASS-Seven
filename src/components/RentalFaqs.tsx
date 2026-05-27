@@ -158,7 +158,7 @@ export default function RentalFaqs() {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-6">
             <Link 
-              to="/contact" 
+              to="/help-support" 
               className="px-8 py-3 bg-brand-yellow hover:bg-brand-yellow-hover text-brand-maroon-dark font-bold uppercase tracking-widest text-sm transition-colors inline-flex items-center justify-center"
             >
               Contact Support

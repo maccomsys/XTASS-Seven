@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from 'react';
 import { MapPin, Home, Briefcase, Plus, Trash2, CheckCircle2, Edit3, Building } from 'lucide-react';
 

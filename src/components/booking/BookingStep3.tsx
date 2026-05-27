@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import BookingProgress from './BookingProgress';
-import { Users, Briefcase, Settings2, ShieldCheck, ChevronDown, Check } from 'lucide-react';
+import { Users, Briefcase, Settings2, ShieldCheck, ChevronDown, Check , HelpCircle} from 'lucide-react';
 
 export default function BookingStep3() {
   const navigate = useNavigate();

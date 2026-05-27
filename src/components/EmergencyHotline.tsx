@@ -34,7 +34,7 @@ export default function EmergencyHotline() {
             <MessageCircle className="w-12 h-12 text-green-600 mb-6 shrink-0" />
             <h2 className="text-2xl font-black text-gray-900 mb-2 uppercase tracking-tight">Emergency WhatsApp</h2>
             <p className="text-gray-600 font-medium mb-8">For silent emergencies where you cannot speak, message us immediately.</p>
-            <a href="#" className="w-full bg-green-600 hover:bg-green-700 text-white font-black text-2xl py-6 tracking-wider transition-colors shadow-lg flex items-center justify-center">
+            <a href="https://wa.me/233500000000" target="_blank" rel="noopener noreferrer" className="w-full bg-green-600 hover:bg-green-700 text-white font-black text-2xl py-6 tracking-wider transition-colors shadow-lg flex items-center justify-center">
                Message +233 500 000 000
             </a>
           </div>
@@ -94,7 +94,7 @@ export default function EmergencyHotline() {
               </div>
               <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-brand-maroon ml-auto" />
             </Link>
-            <Link to="/contact" className="bg-white p-6 border border-gray-200 shadow-sm hover:border-brand-maroon transition-colors group flex items-center">
+            <Link to="/help-support" className="bg-white p-6 border border-gray-200 shadow-sm hover:border-brand-maroon transition-colors group flex items-center">
               <MessageCircle className="w-8 h-8 text-brand-yellow mr-4" />
               <div className="text-left mr-6">
                 <span className="block font-bold text-gray-900 group-hover:text-brand-maroon transition-colors">Report Non-Urgent Issue</span>

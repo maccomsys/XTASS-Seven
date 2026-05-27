@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { CarFront, Star, Clock, ChevronDown, Filter, ChevronLeft } from 'lucide-react';
 
@@ -71,7 +71,7 @@ export default function AvailableVehicles() {
     return result;
   }, [selectedClasses, selectedLevels, sortOption]);
 
-  const FilterChip = ({ label, selected, onClick }: { label: string, selected: boolean, onClick: () => void }) => (
+  const FilterChip: React.FC<{ label: string, selected: boolean, onClick: () => void }> = ({ label, selected, onClick }) => (
     <button 
       onClick={onClick}
       className={`px-4 py-2 rounded-full text-xs font-bold uppercase tracking-wider whitespace-nowrap transition-colors border-2 ${

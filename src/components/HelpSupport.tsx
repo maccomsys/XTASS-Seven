@@ -67,7 +67,7 @@ export default function HelpSupport() {
         <section className="mb-12">
            <h2 className="text-sm font-bold text-gray-900 uppercase tracking-widest mb-6">Self Service</h2>
            <div className="flex flex-col space-y-4">
-             <Link to="/faq" className="bg-white border-2 border-gray-200 p-6 flex flex-col md:flex-row md:items-center justify-between hover:border-brand-maroon transition-colors group">
+             <Link to="/rental-faqs" className="bg-white border-2 border-gray-200 p-6 flex flex-col md:flex-row md:items-center justify-between hover:border-brand-maroon transition-colors group">
                 <div className="flex items-center mb-4 md:mb-0">
                   <HelpCircle className="w-8 h-8 text-brand-maroon mr-4" />
                   <div>
